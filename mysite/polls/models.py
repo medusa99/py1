@@ -1,4 +1,7 @@
+import datetime
 from django.db import models
+from django.utils import timezone
+
 #rember to exit out of shell exit() and import modules again so that when Question.objects.all() is called in the shell you see the question return text.
 # Create your models here.
 class Question(models.Model):
